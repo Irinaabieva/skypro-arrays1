@@ -21,11 +21,35 @@ public class Main {
             }
         }
         for (int i = 0; i < arr3.length; i++) {
-            if (i == arr1.length - 1) {
+            if (i == arr3.length - 1) {
                 System.out.println(arr3[i]);
             } else {
                 System.out.print(arr3[i] + ", ");
             }
         }
+        // Задание 3
+        for (int i = arr1.length - 1; i >= 0; i--) {
+            System.out.print(arr1[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+
+        for (int i = arr2.length - 1; i >= 0; i--) {
+            System.out.print(arr2[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+
+        for (int i = arr3.length - 1; i >= 0; i--) {
+            System.out.print(arr3[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
     }
 }
